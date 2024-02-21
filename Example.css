@@ -1,0 +1,40 @@
+<<<<<<< HEAD
+.exampleCard{
+    display: flex;
+    margin: 4vw;
+}
+.Descrption{
+    
+    background-color: rgb(164, 137, 189);
+    min-width: 40vw;
+    padding: 7vw;
+    border: 4px solid rgb(201, 195, 195);
+    border-radius: 20px;
+}
+.exampleCard{
+    display: flex;
+    flex-wrap: wrap;
+}
+.exampleCard Card{
+    min-width: 54vw;
+=======
+.exampleCard{
+    display: flex;
+    margin: 4vw;
+}
+.Descrption{
+    
+    background-color: rgb(164, 137, 189);
+    min-width: 40vw;
+    padding: 7vw;
+    border: 4px solid rgb(201, 195, 195);
+    border-radius: 20px;
+}
+.exampleCard{
+    display: flex;
+    flex-wrap: wrap;
+}
+.exampleCard Card{
+    min-width: 54vw;
+>>>>>>> 585964074a70623e5a25e3761ddfba9c84305d52
+}

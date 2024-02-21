@@ -11,9 +11,7 @@ export default function Card({nameOfCat,emailOfCat,catImageUrl}){
           <img className="catImage" src={`https://robohash.org/${catImageUrl}`+"?set=set5"} alt={catImageUrl}></img>
           <h2 className='nameOfCat'>{nameOfCat}</h2>
           <p className="email">{emailOfCat}</p>
-          <br/>
-          <Link to="/descriptionCard" state={{ data: tempObj }} ><button id={catImageUrl}>more about {nameOfCat}</button></Link>
-        </section>
+          </section>
     )
 }
 =======
@@ -29,9 +27,7 @@ export default function Card({nameOfCat,emailOfCat,catImageUrl}){
           <img className="catImage" src={`https://robohash.org/${catImageUrl}`+"?set=set5"} alt={catImageUrl}></img>
           <h2 className='nameOfCat'>{nameOfCat}</h2>
           <p className="email">{emailOfCat}</p>
-          <br/>
-          <Link to="/descriptionCard" state={{ data: tempObj }} ><button id={catImageUrl}>more about {nameOfCat}</button></Link>
-        </section>
+          </section>
     )
 }
 >>>>>>> 585964074a70623e5a25e3761ddfba9c84305d52
